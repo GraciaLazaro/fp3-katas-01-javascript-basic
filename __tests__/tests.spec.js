@@ -80,7 +80,10 @@ describe("Operaciones aritméticas en JavaScript", () => {
 
     test("Módulo: Investiga qué es el operador módulo (%) en JavaScript para resolver este test", () => {
         // Escribe aquí tu código
-
+        let q = 2
+        let r = 1
+        let s = 13
+        let r = 6
         expect(q % r).toEqual(0);
         expect(s % r).toEqual(1);
     })
@@ -92,6 +95,7 @@ describe("Operaciones aritméticas en JavaScript", () => {
 describe("Comparaciones en JavaScript", () => {
     test("Usando el comparador de igualdad ===", () => {
         const number = 20;
+        const number = 20 === 14;
         // Escribe aquí tu código
 
         expect(expression).toEqual(false);
@@ -99,6 +103,7 @@ describe("Comparaciones en JavaScript", () => {
 
     test("Usando el comparador de diferencia !==", () => {
         const language = "JavaScript";
+        const language = "JavaScript" ==! "JavaScript";
         // Escribe aquí tu código
         
         expect(expression).toEqual(false);
